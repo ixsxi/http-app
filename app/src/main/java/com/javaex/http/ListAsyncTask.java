@@ -1,12 +1,10 @@
 package com.javaex.http;
 
-import android.icu.text.LocaleDisplayNames;
 import android.os.AsyncTask;
 import android.util.Log;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.javaex.GuestbookVo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -71,7 +69,7 @@ public class ListAsyncTask extends AsyncTask<Void,Integer,List<GuestbookVo>> {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
+//ff
         return guestbookList;
     }
 

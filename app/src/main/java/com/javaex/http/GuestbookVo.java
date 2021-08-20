@@ -1,4 +1,4 @@
-package com.javaex;
+package com.javaex.http;
 
 public class GuestbookVo {
     private int no;
@@ -6,6 +6,7 @@ public class GuestbookVo {
     private String password;
     private String content;
     private String regDate;
+
 
 
     public GuestbookVo() {
